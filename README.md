@@ -7,8 +7,6 @@
 
 This repository contains instrutions to set up a local environment, details to get dataset and code to build a deep neural network that functions as part of an end-to-end automatic speech recognition (ASR) pipeline. It accepts raw audio and return the predicted transcription of the spoken language. 
 
-//![ASR Pipeline][image1]
-
 We begin by investigating the [LibriSpeech dataset](http://www.openslr.org/12/) that will be used to train and evaluate your models. The algorithm first convert any raw audio to feature representations that are commonly used for ASR. Then we move on to building neural networks that can map these audio features to transcribed text. After learning about the basic types of layers that are often used for deep learning-based approaches to ASR, we engage in our own investigations by creating and testing our own state-of-the-art models. Throughout the notebook, we provide recommended research papers for additional reading and links to GitHub repositories with interesting implementations. 
 
 ### Files Details
@@ -69,7 +67,7 @@ You should run this project with GPU acceleration for best performance.
 
 1. Clone the repository, and navigate to the downloaded folder.
 ```
-git clone https://github.optum.com/sdsml/Speech_Recognition
+git clone https://github.com/piushvaish/udacity_speech_recognizor_project.git
 cd Speech_Recognition
 ```
 
@@ -178,5 +176,4 @@ Windows: deactivate speech_recognition
 ## Contact 
 
 If you require any help or have a suggestion, please contact [Piush Vaish](piushvaish@gmail.com)
-
 
